@@ -46,9 +46,20 @@ class ViewController: UIViewController,UITextFieldDelegate {
         if textField == txtUsername{
             txtPassword.becomeFirstResponder()
         }else{
+            handleCloseKeyboard(isClose: true)
             // Implement login logic here
         }
         return true
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        handleCloseKeyboard(isClose: true)
+    }
+    
+    
+    private func handleCloseKeyboard(isClose : Bool){
+        view.endEditing(isClose)
+    }
+    
 }
 
