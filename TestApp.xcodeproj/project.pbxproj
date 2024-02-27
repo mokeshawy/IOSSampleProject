@@ -16,6 +16,7 @@
 		826551DD2B8D0E2300F9F898 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551DC2B8D0E2300F9F898 /* TestAppTests.swift */; };
 		826551E72B8D0E2300F9F898 /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551E62B8D0E2300F9F898 /* TestAppUITests.swift */; };
 		826551E92B8D0E2300F9F898 /* TestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551E82B8D0E2300F9F898 /* TestAppUITestsLaunchTests.swift */; };
+		826551F62B8D16CD00F9F898 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551F52B8D16CD00F9F898 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		826551E22B8D0E2300F9F898 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		826551E62B8D0E2300F9F898 /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
 		826551E82B8D0E2300F9F898 /* TestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		826551F52B8D16CD00F9F898 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		826551C42B8D0E2000F9F898 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				826551F82B8D174900F9F898 /* HomeScreen */,
+				826551F72B8D16E200F9F898 /* LoginScreen */,
 				826551C52B8D0E2000F9F898 /* AppDelegate.swift */,
 				826551C72B8D0E2000F9F898 /* SceneDelegate.swift */,
-				826551C92B8D0E2000F9F898 /* ViewController.swift */,
 				826551CB2B8D0E2000F9F898 /* Main.storyboard */,
 				826551CE2B8D0E2300F9F898 /* Assets.xcassets */,
 				826551D02B8D0E2300F9F898 /* LaunchScreen.storyboard */,
@@ -125,6 +128,22 @@
 				826551E82B8D0E2300F9F898 /* TestAppUITestsLaunchTests.swift */,
 			);
 			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		826551F72B8D16E200F9F898 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				826551C92B8D0E2000F9F898 /* ViewController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		826551F82B8D174900F9F898 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				826551F52B8D16CD00F9F898 /* HomeViewController.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				826551CA2B8D0E2000F9F898 /* ViewController.swift in Sources */,
 				826551C62B8D0E2000F9F898 /* AppDelegate.swift in Sources */,
 				826551C82B8D0E2000F9F898 /* SceneDelegate.swift in Sources */,
+				826551F62B8D16CD00F9F898 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
