@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		821658A22B94C3CF00A53E30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821658A12B94C3CF00A53E30 /* HomeViewController.swift */; };
+		8243EE292B95C1DD005D0DD9 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243EE282B95C1DD005D0DD9 /* TableViewViewController.swift */; };
 		826551C62B8D0E2000F9F898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551C52B8D0E2000F9F898 /* AppDelegate.swift */; };
 		826551C82B8D0E2000F9F898 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551C72B8D0E2000F9F898 /* SceneDelegate.swift */; };
 		826551CA2B8D0E2000F9F898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826551C92B8D0E2000F9F898 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		821658A12B94C3CF00A53E30 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8243EE282B95C1DD005D0DD9 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
 		826551C22B8D0E2000F9F898 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		826551C52B8D0E2000F9F898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		826551C72B8D0E2000F9F898 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			path = HomeScreen;
 			sourceTree = "<group>";
 		};
+		8243EE272B95C1B1005D0DD9 /* TableViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8243EE282B95C1DD005D0DD9 /* TableViewViewController.swift */,
+			);
+			path = TableViewScreen;
+			sourceTree = "<group>";
+		};
 		826551B92B8D0E2000F9F898 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		826551C42B8D0E2000F9F898 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				8243EE272B95C1B1005D0DD9 /* TableViewScreen */,
 				821658A02B94C3A600A53E30 /* HomeScreen */,
 				826551F82B8D174900F9F898 /* OnBoarScreen */,
 				826551F72B8D16E200F9F898 /* LoginScreen */,
@@ -292,6 +303,7 @@
 				826551CA2B8D0E2000F9F898 /* ViewController.swift in Sources */,
 				826551C62B8D0E2000F9F898 /* AppDelegate.swift in Sources */,
 				826551C82B8D0E2000F9F898 /* SceneDelegate.swift in Sources */,
+				8243EE292B95C1DD005D0DD9 /* TableViewViewController.swift in Sources */,
 				826551F62B8D16CD00F9F898 /* OnBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
